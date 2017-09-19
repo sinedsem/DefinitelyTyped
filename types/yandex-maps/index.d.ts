@@ -2334,6 +2334,7 @@ declare namespace ymaps {
 		suppressObsoleteBrowserNotifier?: boolean;
 		yandexMapAutoSwitch?: boolean;
 		yandexMapDisablePoiInteractivity?: boolean;
+        searchControlProvider: string;
 	}
 
 	export class Placemark extends GeoObject {
